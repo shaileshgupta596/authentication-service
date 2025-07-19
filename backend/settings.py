@@ -31,6 +31,10 @@ DEBUG = int(os.getenv('DEBUG'))
 
 ALLOWED_HOSTS = ['authentication-service-dm8n.onrender.com']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://authentication-service-dm8n.onrender.com',
+]
+
 
 # Application definition
 
